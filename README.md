@@ -1,40 +1,27 @@
-# Welcome to Remix!
+# Karan contrast checker
 
-- 📖 [Remix docs](https://remix.run/docs)
+## Contrast Checker Application
 
-## Development
+This repository contains a web application that allows you to test the contrast ratio between two colors.
+You can enter colors as named CSS values (e.g., "red", "blue") or as hex codes prefixed with "#", like "#ffffff".
 
-Run the dev server:
+### Key Features
 
-```shellscript
-npm run dev
-```
+- **Color Input Flexibility**: Supports CSS named colors or hex codes (with "#").
+- **Live Preview**: Shows a real-time preview of text with the chosen foreground and background colors.
+- **Language Toggle**: Easily switch between Japanese (default) and English interfaces.
+- **Responsive and Accessible**: Designed with accessibility in mind and responsive layout using Tailwind CSS.
 
-## Deployment
+### How to Use
 
-First, build your app for production:
+1. Run the application using `npm run dev` or your preferred command.
+2. Open the provided local URL in your browser.
+3. Enter valid color values into both Foreground and Background fields.
+4. Check the live preview on the right side (or left side, depending on the final layout).
+5. Submit the form to get the final contrast calculation and compliance levels.
 
-```sh
-npm run build
-```
+### Technologies Used
 
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- **Remix Framework**: For server-side rendering and routing.
+- **Tailwind CSS**: For a clean and responsive UI.
+- **TypeScript**: For type safety and maintainable code.
